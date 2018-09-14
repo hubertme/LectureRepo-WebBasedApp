@@ -1,0 +1,36 @@
+body{
+    font-family: "Helvetica Neue";
+}
+
+.divOne{
+    color: blue;
+}
+
+.divTwo{
+    background-color: gray;
+    color: white;
+    background-size: 100px auto;
+}
+
+#singledOut{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/**{*/
+    /*color: green;*/
+/*}*/
+
+h3 + ul{
+    border: 3px dotted purple;
+}
+
+li a{
+    color: blue;
+}
+
+li a[href="http://www.kompas.com"]{
+    color: red;
+    border: 1px solid orange;
+}

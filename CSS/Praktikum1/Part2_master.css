@@ -1,0 +1,29 @@
+html{
+    font-family: "Helvetica Neue";
+}
+
+body{
+    background: url("https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+div{
+    background: gold;
+    width: 500px; height: 200px;
+    border: orange;
+    border-width: thick;
+    border-style: dot-dot-dash;
+    /*background-color: aqua;*/
+}
+
+p{
+    color: orangered;
+}
+
+span{
+    font-size: 20px;
+    font-weight: bold;
+    color: indianred;
+}

@@ -1,0 +1,29 @@
+html{
+    font-family: "Helvetica Neue";
+}
+
+body{
+    font-size: 15px;
+    /*background-color: antiquewhite;*/
+}
+
+h1{
+    color: blue;
+}
+
+ol{
+    color: rgb(0,189,0);
+}
+
+p{
+    color: #000000;
+    font-size: 20px;
+}
+
+h4{
+    color: rgba(13,90,140,0.7);
+}
+
+ul{
+    color: aquamarine;
+}

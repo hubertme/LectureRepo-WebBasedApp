@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms - Labels and Validations</title>
+</head>
+<body>
+    <h1> Hotel feedback form</h1>
+    <form method="get">
+        <h3> Are you from inside or outside the USA?</h3>
+
+        <p> Location:&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="inside" name="locationChoice" value="in">
+            <label for="inside"> Inside USA &nbsp;&nbsp;</label>
+            <input type="radio" id="outside" name="locationChoice" value="out">
+            <label for="outside"> Outside USA </label>
+        </p>
+        <!--<label for="inside"> Location: </label>-->
+        <!--<input type="radio" id="inside" name="locationChoice" value="">-->
+        <!--<label for="outside"> Outside: </label>-->
+        <!--<input type="radio" id="outside" name="locationChoice" value="">-->
+
+        <p> How was our service?<br>
+            <select name="stars">
+                <option value="Great">3</option>
+                <option value="Okay">2</option>
+                <option value="Bad">1</option>
+            </select>&nbsp;&nbsp;stars
+        </p>
+
+        <p> Any other feedback? </p>
+        <textarea name="name" rows="8" cols="80"></textarea><br>
+        <input type="submit" name="" value="Submit feedback!">
+    </form>
+</body>
+</html>
