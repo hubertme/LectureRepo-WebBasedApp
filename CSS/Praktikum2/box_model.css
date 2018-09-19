@@ -1,0 +1,19 @@
+#top{
+    text-align: center;
+    border: 4px solid blue;
+    width: 25%;
+
+    /* Top, Right, Bottom, Left*/
+    margin: 10px 20px 100px 400px;
+}
+
+#bottom{
+    border: 4px solid red;
+    width: 50%;
+
+    /*Even margin*/
+    margin: 200px;
+    /*margin: auto;*/
+
+    padding: 200px;
+}
